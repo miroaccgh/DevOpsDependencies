@@ -22,5 +22,10 @@ docker-containers/
 .vscode/
 .idea/
 
-Ignore environment files
+# Ignore environment files
 .env
+
+# Ignore devenv generated files
+.devenv/
+.devenv.flake.nix
+devenv.lock
