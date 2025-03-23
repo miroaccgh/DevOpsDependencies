@@ -48,5 +48,5 @@
   ];
  languages.python.version = "3.12";
  languages.python.enable = true;
- enterShell = ''../..''
+ enterShell = ''../..'';
 } 
