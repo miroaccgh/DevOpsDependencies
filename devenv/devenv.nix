@@ -10,6 +10,7 @@
     dnslookup
     nmap
     traceroute
+    nodejs
   ];
   languages.python.enable = true;
   languages.python.version = "3.12";
