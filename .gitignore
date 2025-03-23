@@ -1,31 +1,3 @@
-# Docker-related files
-.docker/
-*.tar
-*.log
-*.pid
-docker-compose.override.yml
-
-# Docker volumes (persistent storage)
-docker-data/
-
-# Ignore Docker images and containers
-docker-images/
-docker-containers/
-
-# Ignore Docker build artifacts and caches
-**/.dmg
-**/.tar
-**/.build/
-**/.tmp/
-
-# Ignore IDE and editor configurations
-.vscode/
-.idea/
-
-# Ignore environment files
-.env
-
-# Ignore devenv generated files
 .devenv/
-.devenv.flake.nix
 devenv.lock
+.devenv.flake.nix
